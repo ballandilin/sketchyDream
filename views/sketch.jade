@@ -1,0 +1,21 @@
+extends layout
+block style
+	link(rel='stylesheet', href='/stylesheets/sketch.css')
+
+block content
+	.container
+		.row
+			.col
+			.col
+				div(id="block")
+					ul(id="conn")
+			.col
+				canvas(id="canvas" width="600" height="600")
+				.row
+					button()
+					button()
+
+			.col
+
+	script(src="https://code.jquery.com/jquery-3.5.0.js")
+	script(src="javascripts/sketch.js")

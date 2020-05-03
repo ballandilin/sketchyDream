@@ -1,0 +1,26 @@
+body {
+	/*background-image: url("../images/retrowave.jpg");*/
+	/*background-image: url("../images/retro2.jpg");*/
+	background-image: url("../images/retroGif.gif");
+	/*background-image: url("../images/retroGif2.gif");*/
+
+	height: 100%;
+
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+}
+
+
+.container {
+  position: relative;
+  height: 50rem;
+}
+
+.centerVert {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

@@ -1,0 +1,35 @@
+body, html {
+  	height: 100%;
+  	padding: 50px;
+  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+a {
+  color: #00B7FF;
+}
+ 
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+#canvas{
+	border: black 1px solid;
+}
+
+/*#block {
+	color: white;
+	border-width: 3px;
+ 	border-style: solid;
+ 	border-image-source: 
+    linear-gradient(
+      to left, 
+      #2de2e6, #035ee8, #f6019d, #d40078, #9700cc
+    );
+}*/
+
+#block {
+	border: 5px solid transparent;
+  	padding: 20px;
+  	border-image: repeating-linear-gradient(30deg, #2de2e6, #035ee8, #f6019d, #d40078, #9700cc 20px) 10;
+}

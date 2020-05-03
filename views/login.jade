@@ -1,0 +1,31 @@
+
+
+
+extends layout
+
+block style
+	link(rel='stylesheet', href='/stylesheets/logPage.css')
+	link(rel='stylesheet', href='/stylesheets/retrowave.css')
+
+block content
+	div(class="container")
+		div(class="row justify-content-center")
+			div(class="col-sm")
+			div(class="col-sm")
+				p(class="h1 chrome text-responsive") SKETCHY
+				h3(class="dreams text-responsive") Dreams
+			div(class="col-sm")
+		div(class="row justify-content-center")
+			br
+		div(class="row my-5 justify-content-center")
+			div(class="col-sm")
+			div(class="col-sm")
+				div(class="input-group")
+					input(id="pseudoInput" type="text" class="form-control" placeholder="pseudo")
+					div(class="input-group-append")
+						input(id="pseudo" class="btn btn-outline-light" type="button" value="OK")
+			div(class="col-sm")
+
+	script(src="https://code.jquery.com/jquery-3.5.0.js")
+	script(src="javascripts/logPage.js")
+  
