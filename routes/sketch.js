@@ -17,20 +17,7 @@ router.get('/', function(req, res, next) {
 	  });
 	});
 
-  // res.io.on('deconnection', (socket) => {
-  // 	socket.on('deconnection', )
-  // 	socket.emit('deconnect', )
-  // });
-
 });
 
-// router.post('/', function(req, res, next) {
-// 	  res.io.on('connection', (socket) => {
-//   	console.log(req.body.pseudo);
-// 	  socket.on('pseudo', (pseudo) => {
-// 	  	console.log("pseudo:" + pseudo);
-// 	  });
-// 	});
-// });
 
 module.exports = router;
