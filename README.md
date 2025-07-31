@@ -104,16 +104,6 @@ sketchyDream/
 - [ ] Tests unitaires et d'intégration
 - [ ] Documentation API
 
-## Contribution
-
-Le projet étant en développement actif, les contributions sont les bienvenues ! 
-
-1. Fork le projet
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/nouvelle-fonctionnalite`)
-3. Commitez vos changements (`git commit -am 'Ajout nouvelle fonctionnalité'`)
-4. Push sur la branche (`git push origin feature/nouvelle-fonctionnalite`)
-5. Ouvrez une Pull Request
-
 ## Licence
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
